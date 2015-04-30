@@ -443,11 +443,13 @@ header nav ul li {
 }
 header nav ul li a {
   font-weight: bold;
+  cursor: pointer;
 }
 header nav ul li a.bordered {
   border-radius: 0.2em;
   padding: 0.4em 0.8em;
   border: 2px solid #e85151;
+  cursor: pointer;
 }
 
 #content {
@@ -494,7 +496,11 @@ header nav ul li a.bordered {
   border-top: 2px solid #fff;
   letter-spacing: -0.05em;
   margin-top: 1.2em;
-  margin-bottom: 1em;
+ /* margin-bottom: 0.5em;*/
+}
+#content section.intro h2 {
+  letter-spacing: -0.05em;
+   margin-bottom: 1.5em;
 }
 @media screen and (max-width: 540px) {
   #content section.intro h1 {
@@ -567,6 +573,9 @@ header nav ul li a.bordered {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
+}
+#content section.row .col-full > h1 {
+  margin-bottom: 25px;
 }
 #content section.row .col-full:last-child {
   margin-right: 0;

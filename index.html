@@ -12,14 +12,11 @@
 	<script type="text/javascript" src="js/jquery-1.5.2.js" ></script>
 	<script type="text/javascript" src="js/animatescroll.js"></script>
 
-	<title>Gumba Template</title>
+	<title>Johan Salas N</title>
 
 </head>
 <body>
-
-
 	<header>
-
 		<div id="logo-container">
 			<div id="logo_img"><img src="img/profile_img.jpg"></div>
 			<div id="logo"><a href="/">Johan Salas Nunez</a></div>
@@ -28,8 +25,8 @@
 		<nav id="menu">
 			<ul>
 				<li><a onclick="$('#about').animatescroll();">About me</a></li>
-				<li><a href="#">Gallery</a></li>
-				<li><a href="#">Portfolio</a></li>
+				<li><a onclick="$('#education').animatescroll();">Education</a></li>
+				<li><a onclick="$('#portfolio').animatescroll();">Portfolio</a></li>
 				<li><a href="mailto:your@address.com" class="bordered">Contact</a></li>
 			</ul>
 		</nav>
@@ -40,6 +37,7 @@
 
 		<section class="intro" id="about">
 			<h1>About Me!</h1>
+			<h2>“Amor Fati – “Love Your Fate”, which is in fact your life.”</h2>
 			<p>
 				I am a Junior Software Engineer, currently coursing the last year at the Universidad Nacional in Heredia, Costa Rica
 			</p>
@@ -53,16 +51,27 @@
 			</ul>
 		</section>
 
-		<section class="row">
+		<section class="row" id="education">
 			<div class="col-full">
-				<h1>Example title</h1>
+				<h1>Education</h1>
+				<h2>Bachelor:</h2>
 				<p>
-					Gumba is a fictional agency from Amsterdam, The Netherlands. This is the place where you would normally introduce yourself. You can easily change the template to fit your needs by adding text or changing the colors and styles.
+					2012-2015<br>
+					Software Engineering at Universidad Nacional, Heredia Costa Rica
+				</p>
+				<h2>Technician:</h2>
+				<p>
+					2009-2011<br>
+					Software Design and Developing, Colegio T&eacute;cnico Profesional Heredia Costa Rica
 				</p>
 			</div>
+
 		</section>
 
-		<section class="row">
+		<section class="row" id="portfolio">
+			<div class="col-full" >
+				<h1>Portfolio</h1>
+			</div>
 			<div class="photo-grid">
 				<a href="img/example-photo-b.jpg" rel="lightbox" class="col-2"><img src="img/example-photo-b.jpg" alt="Example photo"></a>
 				<a href="img/example-photo-c.jpg" rel="lightbox" class="col-2"><img src="img/example-photo-c.jpg" alt="Example photo"></a>
